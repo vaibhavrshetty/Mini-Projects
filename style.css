@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    /* background-color: rgb(20, 190, 220); */
+    background-color:rgb(255,154,4);
+    font-family: sans-serif;
+    /* overflow: hidden; */
+}
+form{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.navbar .navbar-brand {
+    font-size: 26px;
+    color: aliceblue;
+}
+.navbar .navbar-brand:hover{
+    color: rgb(255,154,4);
+}
+.navbar .collapse .nav-link{
+    font-size: 20px;
+    color: aliceblue;
+}
+.navbar .collapse .nav-link:hover{
+    color: rgb(255,154,4);
+}
+.navbar .collapse{
+    padding-left: 30%;
+}
+.card-login1{
+    position: absolute;
+top: 50%;
+left: 50%;
+color:honeydew;
+transform: translate(-50%,-50%);
+width: auto;
+border: 3px solid honeydew;
+border-radius: 10px;
+}
+.card-login1 h2{
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid honeydew;
+
+}
+.card-login1 .btn{
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255,101,0);
+}
+.card-login2{
+    position: absolute;
+top: 50%;
+left: 50%;
+color: honeydew;
+transform: translate(-50%,-50%);
+background-color: white;
+width: auto;
+border: 3px solid honeydew;
+border-radius: 10px;
+margin-top: 500px;
+}
+.card-login2 h2{
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid honeydew;
+
+}
+.card-login2 .btn{
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255,101,0);
+}
+.card-login3{
+    position: absolute;
+top: 50%;
+left: 50%;
+color: honeydew;
+transform: translate(-50%,-50%);
+background-color: white;
+width: auto;
+border: 3px solid honeydew;
+border-radius: 10px;
+margin-top: 900px;
+padding: 10px;
+}
+.card-login3 h2{
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid honeydew;
+
+}
+.card-login3 .btn{
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255,101,0);
+}
+.card-login4{
+    position: absolute;
+top: 50%;
+left: 50%;
+color: honeydew;
+transform: translate(-50%,-50%);
+background-color: white;
+width: auto;
+border: 3px solid honeydew;
+border-radius: 10px;
+margin-top: 1225px;
+margin-bottom: 60px;
+/* padding: 10px; */
+}
+.card-login4 h2{
+    text-align: center;
+    padding: 0 0 10px 0;
+    border-bottom: 3px solid honeydew;
+
+}
+.card-login4 .btn{
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255,101,0);
+}
+.btn-update{
+    margin-left: 85%;
+    position: relative;
+    padding: 7px;
+    border-radius: 5px;
+    background-color:black;  
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    color:rgb(255,101,0);
+}
